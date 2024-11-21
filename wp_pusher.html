@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wp_pusher.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+                <img src="./asset/wp_pusher.png" alt="WP Pusher logo" width="200" height="40">
+        </div>
+        <div class="nav_mobile">
+            <button class="menu_btn" popovertarget="menu"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg" alt="menu bar">
+            
+            </button>
+            <nav popover id="menu">
+                <button class="close-btn" popovertarget="menu" popovertargetaction="hide"><span aria-hidden="true">❌</span></button>
+                <ul>
+                    <li><a href="">Download</a></li>
+                    <li><a href="">Learn more</a></li>
+                    <li><a href="">Pricing</a></li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="dex">
+            <ul>
+                <li><a href="">Download</a></li>
+                <li><a href="">Learn more</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="the_main">
+        <section class="white">
+        <h2>Checkout</h2>
+        <form action="./index.html" method="post">
+            
+                <p class="legend"><span class="one">1</span>Your Basic Information</p>
+                <div class="first_container">
+                <div class="firstname">
+                <label for="firstname">First Name</label><br>
+                <input type="text" name="firstname" id="firstname" placeholder="Jane">
+                </div>
+                <div class="lastname">
+                <label for="lastname">Last Name</label><br>
+                <input type="text" name="lastname" placeholder="Doe" id="lastname">
+                </div>
+                <div class="email">
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" placeholder="janedoe@example.com" id="email">
+                </div>
+                </div>
+        
+        
+        
+                <p class="legend"><span class="two">2</span> Your Payment Information </p>
+                <div class="credit_card">
+                <label for="credit_card">Credit Card</label><br>
+                <div class="flex">
+                <input type="number" name="credit_card" id="credit_card" placeholder="Card Number">
+                <input type="number" name="credit_card" id="mm" placeholder="MM/YY"><input type="number" name="credit_card" id="cvc" placeholder="CVC">
+                </div>
+            </div>
+        
+            <button class="buy">Buy WP Pusher</button>
+        </form>
+        <div>
+           <div class="para"> 
+            <p class="que">?</p>
+            <p class="pue"> <span class="need">Need any help?</span> Don't hesitate to <span class="contact">contact</span> support!</p>
+           </div>
+            <p class="power">powerd by <span class="stripe">stripe</span></p>
+        </div>
+    </section>
+    <section class="blue">
+        <h3>Freelancer</h3>
+        <div class="blue_set">
+            <p><sup class="sup">$</sup><span class="number">99</span>/ year</p>
+            <p class="italize">Automatically renews after 1 year</p>
+            <ul>
+                <li>Use on 5 client sites</li>
+                <li>Private repositories</li>
+                <li>Email support</li>
+            </ul>
+            <p>Need 20 client sites?</p>
+            <p><a href="">Switch to the Agency plan</a></p>
+            <div class="house">
+                <p>FTP is horrible to deal with,<strong> WP Pusher</strong> solves that issues, and the customer support is awesome!</p>
+            <div class="testimony">
+                <img src="./asset/git_img.jfif" alt="Kirk Beard" width="40"> <span> Kirk Beard</span>
+            </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; 2018 WP Pusher IVS - <a href="">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
